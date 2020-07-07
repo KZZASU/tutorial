@@ -1,1 +1,13 @@
-this is first commit
+reset in git 
+
+
+git reset --hard HEAD^  ( clear Repository, Staging Area, Working Directory)
+git reset --mixed HEAD^ ( Repository, Staging Area)
+git reset --soft HEAD^ (Repository)
+
+
+git add  file  <add to staging area>
+git commit -m  "message" <commit to repository>
+
+git remote add origin https://github.com/KZZASU/tutorial.git
+git push -u origin master <upload to github>
